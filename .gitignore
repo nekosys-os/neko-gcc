@@ -1,0 +1,6 @@
+# No build files in the source tree!
+build-*/
+gcc-*/
+binutils-*/
+*.tar.gz
+*.tar.xz
