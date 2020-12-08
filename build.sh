@@ -24,7 +24,7 @@ make install-gcc
 make install-target-libgcc
 
 echo "Making symlink..."
-ln -s "$HOME/opt/neko-gcc/bin/i686-elf-gcc" "$HOME/opt/neko-gcc/bin/neko-gcc"
+ln -s "$HOME/opt/neko-gcc/bin/i686-elf-gcc" "/usr/local/bin/neko-gcc"
 
-echo "Use neko-GCC with $PREFIX/bin/neko-gcc"
+echo "You can now use neko-gcc"
 echo "Done"
