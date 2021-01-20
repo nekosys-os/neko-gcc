@@ -12,10 +12,12 @@ Being an advanced build system, GCC has many dependencies. Therefore, it is requ
 - MPFR
 - MPC
 - Texinfo
+- Automake 1.15
+- Autoconf
 
 Debian command: 
 ```
-sudo apt install build-essential bison flex libgmp3-dev libmpc-dev libmpfr-dev texinfo
+sudo apt install build-essential bison flex libgmp3-dev libmpc-dev libmpfr-dev texinfo autoconf automake-1.15
 ```
 
 ## Installing
