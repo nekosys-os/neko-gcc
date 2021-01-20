@@ -19,9 +19,13 @@ sudo apt install build-essential bison flex libgmp3-dev libmpc-dev libmpfr-dev t
 ```
 
 ## Installing
-Run the following command in your shell:
+Make sure that the nekosys main repo is in the same folder as the neko-gcc
+
+Then, run the following command in your shell:
 ```
 chmod +x ./build.sh && sudo ./build.sh
 ```
 
 This creates a `i686-neko-*` toolchain at `~/opt/neko-gcc`
+
+The main build script expects a `neko-gcc` in path, so you need to create a symlink 
