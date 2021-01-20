@@ -23,7 +23,7 @@ Make sure that the nekosys main repo is in the same folder as the neko-gcc
 
 Then, run the following command in your shell:
 ```
-chmod +x ./build.sh && sudo ./build.sh
+chmod +x ./build.sh && ./build.sh
 ```
 
 This creates a `i686-neko-*` toolchain at `~/opt/neko-gcc`
