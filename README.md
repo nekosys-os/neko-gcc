@@ -12,19 +12,16 @@ Being an advanced build system, GCC has many dependencies. Therefore, it is requ
 - MPFR
 - MPC
 - Texinfo
-- Automake 1.15
-- Autoconf
 
 Debian command: 
 ```
-sudo apt install build-essential bison flex libgmp3-dev libmpc-dev libmpfr-dev texinfo autoconf automake-1.15
+sudo apt install build-essential bison flex libgmp3-dev libmpc-dev libmpfr-dev texinfo
 ```
 
 ## Installing
 Run the following command in your shell:
 ```
-chmod +x ./auto-install.sh && sudo ./auto-install.sh
+chmod +x ./build.sh && sudo ./build.sh
 ```
 
-This creates a symlink in /usr/local/bin. Now you can access your new compiler from everywhere by just calling `neko-gcc`. Verify that everything is working using `neko-gcc --version` and see that it shows neko-gcc as GCC 7.5.0.
-
+This creates a `i686-neko-*` toolchain at `~/opt/neko-gcc`
