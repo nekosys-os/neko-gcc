@@ -2,7 +2,7 @@
 export PREFIX="$HOME/opt/neko-gcc"
 export PATH="$PREFIX/bin:$PATH"
 export TARGET=i686-neko
-export SYSROOT = "../nekosys/sysroot"
+export SYSROOT=$(cd "../nekosys/sysroot" ; pwd)
 
 echo "Building binutils..."
 mkdir build-binutils

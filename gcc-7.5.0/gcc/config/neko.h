@@ -26,3 +26,7 @@
     builtin_assert ("system=unix");   \
     builtin_assert ("system=posix");   \
   } while(0);
+
+/* Don't assume anything about the header files.  */
+#undef  NO_IMPLICIT_EXTERN_C
+#define NO_IMPLICIT_EXTERN_C	1

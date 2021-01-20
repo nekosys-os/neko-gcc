@@ -11,6 +11,7 @@ target=fixinc.sh
 
 # Check for special fix rules for particular targets
 case $machine in
+    *neko* | \
     *-neko* | \
     i?86-*-cygwin* | \
     i?86-*-mingw32* | \
